@@ -1,0 +1,54 @@
+import java.util.Scanner;  
+
+public class StudentGrade {  
+    private String studentId;  
+    private double score;  
+
+
+    public StudentGrade(String studentId, double score) {  
+        this.studentId = studentId;  
+        this.score = score;  
+    }  
+
+
+    public char calculateGrade() {  
+        if (score >= 90) {  
+            return 'A';  
+        } else if (score >= 80) {  
+            return 'B';  
+        } else if (score >= 70) {  
+            return 'C';  
+        } else if (score >= 60) {  
+            return 'D';  
+        } else {  
+            return 'F';  
+        }  
+    }  
+
+ 
+    public void printInfo() {  
+        char grade = calculateGrade();  
+        System.out.println("Student ID: " + studentId);  
+        System.out.println("Score: " + score);  
+        System.out.println("Grade: " + grade);  
+    }  
+
+    public static void main(String[] args) {  
+        Scanner scanner = new Scanner(System.in);  
+
+      
+        System.out.print("Enter Student ID: ");  
+        String studentId = scanner.nextLine();  
+
+        System.out.print("Enter Score: ");  
+        double score = scanner.nextDouble();  
+
+
+        StudentGrade student = new StudentGrade(studentId, score);  
+
+      
+        student.printInfo();  
+
+        scanner.close(); 
+    }  
+}
