@@ -1,0 +1,60 @@
+public class Account {  
+    private double balance;  
+    private String branch;  
+    private boolean locked;  
+
+  
+    public Account(double balance, String branch) {  
+        this.balance = balance;  
+        this.branch = branch;  
+        this.locked = false;  
+    }  
+
+    public void print() {  
+        System.out.println("Branch: " + branch);  
+        System.out.println("Balance: " + balance);  
+        System.out.println("Locked: " + (locked ? "Yes" : "No"));  
+    }  
+
+  
+    public void withdraw(double amount) {  
+        if (locked) {  
+            System.out.println("Account is locked. Cannot withdraw funds.");  
+        } else if (amount > balance) {  
+            System.out.println("Insufficient balance to withdraw " + amount);  
+        } else {  
+            balance -= amount;  
+            System.out.println("Successfully withdrew " + amount + ". New balance: " + balance);  
+        }  
+    }  
+ 
+    public void lock() {  
+        locked = true;  
+        System.out.println("Account has been locked.");  
+    }  
+
+ 
+    public void unlock() {  
+        locked = false;  
+        System.out.println("Account has been unlocked.");  
+    }  
+
+    public static void main(String[] args) {  
+    
+        Account myAccount = new Account(1000.0, "Main Branch");  
+        
+        myAccount.print();  
+        
+        myAccount.withdraw(200.0);  
+
+        myAccount.lock();  
+
+        myAccount.withdraw(100.0);  
+        
+        myAccount.unlock();  
+        
+        myAccount.withdraw(100.0);  
+         
+        myAccount.print();  
+    }  
+}
