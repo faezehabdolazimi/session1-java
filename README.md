@@ -1,48 +1,51 @@
-برای دانلود JDK (Java Development Kit)، از سایت های زیر میتوان استفاده کرد:
+Sites to download JDK:
 
-سایت رسمی Oracle:
+Oracle:
+Oracle JDK - The official website for Oracle's JDK, which provides the latest versions of the Java SE Development Kit.
 
- این سایت نسخه‌های رسمی و استاندارد JDK را ارائه می‌دهد.
-Adoptium (قبلاً AdoptOpenJDK):
-
- این سایت توزیع‌های مختلفی از OpenJDK را با کیفیت و پشتیبانی خوب ارائه می‌کند.
+Adoptium (formerly AdoptOpenJDK):
+Adoptium - Offers prebuilt binaries of OpenJDK, which are free and can be used in production environments.
 
 OpenJDK:
-
-این یک پروژه متن باز است که نسخه‌های مختلف JDK را به صورت رایگان ارائه می‌دهد.
+OpenJDK - The official open-source implementation of the Java Platform, Standard Edition, where you can find source code and binaries for various JDK versions.
 
 Amazon Corretto:
+Amazon Corretto - A free, production-ready distribution of OpenJDK that is supported by Amazon.
 
- توزیع رایگان از OpenJDK که از سوی آمازون پشتیبانی می‌شود.
- 
 Zulu OpenJDK:
+Azul Zulu - A robust build of OpenJDK available for various platforms, provided by Azul Systems.
 
- توزیع دیگری از OpenJDK که توسط شرکت Azul ارائه می‌شود و شامل پشتیبانی برای نسخه‌های مختلف جاوا است.
+BellSoft Liberica JDK:
+BellSoft Liberica JDK - An open-source distribution of OpenJDK that includes a variety of additional features and tools.
 
 
 
-در زیر چند IDE معروف برای توسعه برنامه‌های جاوا را معرفی می‌کنم:
+
+
+
+Some of the prominent Java IEDs:
 
 IntelliJ IDEA:
 
-یک IDE بسیار قدرتمند و محبوب که توسط JetBrains توسعه یافته است. این IDE امکانات پیشرفته‌ای مانند تکمیل خودکار کد، آنالیز کد، و ابزارهای مدیریت وابستگی‌ها را ارائه می‌دهد.
+Developed by JetBrains, IntelliJ IDEA is known for its intelligent code completion, powerful navigation features, and extensive plugin ecosystem. It comes in two editions: Community (free and open-source) and Ultimate (commercial).
+
 Eclipse:
+Eclipse is a widely used open-source IDE that supports Java and many other programming languages through plugins. It is highly customizable and has a vast community that contributes to its extensive features and plugins.
 
-
-یک IDE متن‌باز و گسترده که به دلیل قابلیت‌های سفارشی‌سازی، پشتیبانی از پلاگین‌ها و جامعه کاربری بزرگ شناخته شده است. Eclipse برای توسعه جاوا و دیگر زبان‌ها کاربرد دارد.
 NetBeans:
+NetBeans is another open-source IDE that offers a simple and user-friendly interface. It includes tools for project management, code editing, debugging, and more, specifically designed for Java development.
 
-
-یک IDE ساده و کاربرپسند که به ویژه برای توسعه جاوا مناسب است. این IDE شامل ویرایشگر کد، دیباگر، و ابزارهای ساخت و مدیریت پروژه است.
 Apache NetBeans:
+The latest version of NetBeans, which is now managed by the Apache Software Foundation. It continues to provide advanced features for Java development and other programming languages.
 
-
-نسخه جدیدی از NetBeans که به صورت متن باز ادامه توسعه می‌یابد و امکانات و ابزارهای بیشتری اضافه شده است.
 JDeveloper:
+Developed by Oracle, JDeveloper is an IDE specifically designed for developing Java applications, especially for Oracle technologies and enterprise applications.
 
+Visual Studio Code (with Java Extensions):
+While not specifically a Java IDE, VS Code is a lightweight and powerful code editor that can be enhanced with Java extensions to provide features suitable for Java development.
 
-محیط رسمی Oracle برای توسعه برنامه‌های جاوا، به ویژه برای توسعه برنامه‌های سمت سرور و وب.
+BlueJ:
+Aimed at beginners and educational purposes, BlueJ offers a simple interface to help new Java developers learn programming concepts. It is ideal for teaching and small projects.
 
-Visual Studio Code (با افزونه‌های جاوا):
-
-ویرایشگر کد منبع باز که با نصب افزونه‌های مخصوص جاوا می‌تواند به یک IDE قوی برای توسعه جاوا تبدیل شود.
+JGrasp:
+A lightweight IDE that provides visualizations of code structure and is particularly useful for educational purposes and small to medium-sized Java projects.
